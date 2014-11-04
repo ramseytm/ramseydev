@@ -128,9 +128,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color-dark;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: darken(#4E4E4C, 10%);
 }
 
 code {
@@ -148,14 +148,12 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1160px - (#{$spacing-unit} * 2));
+    max-width:         calc(1160px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -163,11 +161,16 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
+        max-width: -webkit-calc(1160px - (#{$spacing-unit}));
+        max-width:         calc(1160px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+}
+
+.inner-wrapper {
+    text-align: center;
+    width: 100%;
 }
 
 
@@ -201,4 +204,8 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.left {
+    float: left;
 }
