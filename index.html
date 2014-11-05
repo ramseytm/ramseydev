@@ -4,17 +4,19 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Recent Posts and Stuff</h1>
+  <h1 class="page-heading">Recent Posts</h1>
 
-  <ul class="post-list">
+  <ul class="post-list black-box">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y | %H:%M %p " }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
+        <div class="post-wrapper">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {{ post.excerpt }}
+        </div>
       </li>
     {% endfor %}
   </ul>
