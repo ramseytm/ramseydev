@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: darken($background-color, 5%);
     -webkit-text-size-adjust: 100%;
 }
 
@@ -74,8 +74,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -97,8 +95,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $brand-color
     }
 }
 

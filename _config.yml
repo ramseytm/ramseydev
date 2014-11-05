@@ -1,13 +1,15 @@
 # Site settings
 title: ramseydev.com - Stories of development.
 headertitle: Tyler Ramsey
-subtitle: -- Stories of Development --
+subtitle: -- Tales of Development --
 email: ramz_tyler@yahoo.com
 description: > # ramseydev.com is the personal blog of Tyler Ramsey, a software developer in Columbus, Ohio.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ramseydev.com" # the base hostname & protocol for your site
-twitter_username: ramseytm
+twitter_username: ramsey_tm
 github_username:  ramseytm
+
+excerpt_separator: <!--excerpt--> 
 
 # Build settings
 markdown: kramdown
