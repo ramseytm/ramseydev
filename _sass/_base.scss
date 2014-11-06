@@ -205,7 +205,16 @@ pre {
         path {
             fill: $grey-color;
         }
+
+        &:hover{
+            path {
+            fill: lighten($grey-color, 20%);
+            }
+        }
     }
+}
+.icon-image {
+    width: 15px;
 }
 
 .left {

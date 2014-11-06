@@ -218,6 +218,25 @@
     }
 }
 
+.image-wrapper {
+    display: table;
+    float: left;
+    margin: 0 15px 5px 0;
+
+    @include media-query($on-palm)
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    @include media-query($on-cell)
+    {
+        margin: 0 15px 15px 0;
+    }
+}
+
 
 
 /**
@@ -225,6 +244,15 @@
  */
 .post-header {
     margin-bottom: $spacing-unit - 10px;
+}
+
+.page-header {
+    margin-bottom: 30px;
+
+    @include media-query($on-palm)
+    {
+        text-align: center;
+    }
 }
 
 .post-title {
@@ -262,5 +290,9 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p {
+        line-height: 1.3;
     }
 }
