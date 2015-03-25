@@ -10,15 +10,13 @@ tags:
 - virtual box
 ---
 
-<iframe src="http://giphy.com/embed/MH7QJh2JSWV4Q?html5=true" alt="Seinfield Hair Pulling" width="480" height="320" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="//giphy.com/embed/MH7QJh2JSWV4Q?playOnHover=true" width="480" height="320" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
  <br/>
 
 So tonight I ran into a bit of frustration with Windows 8. Like most IT folks, I have a few VMs on my local machine that I run with [VirtualBox](https://www.virtualbox.org/ "Virtual Box") and as you may have noticed, the VM I use when editing this site has gone unused since, er, last November apparently (yikes!). Tonight I figured I should probably take a look and run an update or two when to my suprise I'm greeted to this wonderful error upon start up:
 
 >VT-x is not available. (VERR_VMX_NO_VMX)
-
-<!--excerpt--> 
 
 Well that's interesting, it *was* available last time I checked, er, five months ago (double yikes!). For those that don't know VT-x refers to [Intel's hardware virtualization technology](http://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29 "VT-x"). It's required for taking full advantage of 64-bit hosts, such as my desktop PC, and running 64-bit guest VMs, such as the one I'm writing this post on. VT-x is usually presented as a setting in your bios screen that can be enabled or disabled. 
 
