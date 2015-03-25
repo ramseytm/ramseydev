@@ -10,7 +10,7 @@ tags:
 - virtual box
 ---
 
-<iframe src="//giphy.com/embed/MH7QJh2JSWV4Q?playOnHover=true" width="480" height="320" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="//giphy.com/embed/MH7QJh2JSWV4Q" width="480" height="320" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
  <br/>
 

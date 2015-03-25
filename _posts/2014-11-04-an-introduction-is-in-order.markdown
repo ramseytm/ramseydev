@@ -8,7 +8,7 @@ tags:
 - introductions 
 ---
 
-<iframe src="//giphy.com/embed/6459ZFRF1Wxna?playOnHover=true" width="480" height="257" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="//giphy.com/embed/6459ZFRF1Wxna" width="480" height="257" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
  <br/>
 
