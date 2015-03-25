@@ -152,6 +152,10 @@
     float: left;
     font-size: $small-font-size;
     color: $grey-color-light;
+
+    @include media-query($on-cell) {
+        font-size: 11px;
+    }
 }
 
 .post-tags-list {
@@ -164,6 +168,10 @@
         padding-left: 3px;
         display: inline-block;
         *display:inline;
+    }
+
+    @include media-query($on-cell) {
+        font-size: 11px;
     }
 }
 
@@ -255,6 +263,10 @@
 
     @include media-query($on-laptop) {
         font-size: 36px;
+    }
+
+        @include media-query($on-palm) {
+        font-size: 24px;
     }
 }
 
