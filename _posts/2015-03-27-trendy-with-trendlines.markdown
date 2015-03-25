@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Getting trendy with trendlines in Kendo DataViz"
+description: "A simple overview of how to plot charts with Kendo DataViz and how to custom plot trendlines on those charts."
 author: Tyler Ramsey
 date: 2015-03-27 13:00
+twitter_card: summary
+header_image: http://gph.to/1NhoIBD
 tags:
 - development
 - kendo

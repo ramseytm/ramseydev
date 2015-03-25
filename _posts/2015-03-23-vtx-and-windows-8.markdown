@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "VT-X and Windows 8.1: a short-lived frustration."
+description: "An error you may run into with VirtualBox, VT-x on Windows 8 and the way to fix it."
 author: Tyler Ramsey
 date: 2015-03-23 10:07:10
+twitter_card: summary
+header_image: http://gph.to/1E1g5vv
 tags:
 - troubleshooting
 - VMs

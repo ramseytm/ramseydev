@@ -1,19 +1,27 @@
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="Tyler Ramsey">
+    <meta name="author" content="Tyler Ramsey" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
+    <meta name="twitter:card" content="{{ page.twitter_card }}" />
+    <meta name="twitter:site" content="@ramsey_tm" />
+    <meta name="twitter:creator" content="@ramsey_tm" />
+    <meta name="og:url" content="{{ page.url }}" />
+    <meta name="og:title" content="{{ page.title }}" />
+    <meta name="og:description" content="{{ page.description }}" />
+    <meta name="og:image" content="{{ page.header_image }}"/>
 
-    <link rel="stylesheet" href="{{ "/css/main.css?v1" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="/assets/favicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/main.css?v1" | prepend: site.baseurl }}" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
