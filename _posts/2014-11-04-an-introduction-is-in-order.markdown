@@ -5,7 +5,6 @@ description: "A short introduction to the site tylerramsey.net and it's creator.
 author: Tyler Ramsey
 date: 2014-11-04 20:57:10
 twitter_card: summary
-header_image: http://gph.to/1GoriWu
 tags:
 - general
 - introductions 
