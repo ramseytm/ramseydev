@@ -123,7 +123,7 @@ Again, this is fairly straight forward. We're adding the html required to get th
 
 If you throw that code in an html page and open it up in your browser it should render something like this: 
 
-[![example_chart1](http://tylerramsey.net:4000/assets/201503/example_chart1.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/d79q8p33/)
+[![example_chart1](http://tylerramsey.net/assets/201503/example_chart1.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/d79q8p33/)
 {: style="text-align: center"}
 
 # Getting to the point
