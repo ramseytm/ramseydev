@@ -12,7 +12,7 @@ tags:
 - javascript
 ---
 
-<iframe src="//giphy.com/embed/JiL1EN1E5yriU?html5=true" class="header-image" width="480" height="224" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="//giphy.com/embed/JiL1EN1E5yriU" width="480" height="224" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <br />
 
