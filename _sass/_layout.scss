@@ -243,6 +243,10 @@
     }
 }
 
+.eq-wrapper {
+    overflow-x: auto;
+}
+
 
 
 /**
@@ -311,5 +315,9 @@
 
     p {
         line-height: 1.3;
+    }
+
+    ol li {
+        margin-top: 5px;
     }
 }
