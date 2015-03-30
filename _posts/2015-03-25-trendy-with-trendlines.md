@@ -16,7 +16,7 @@ tags:
 
 <br />
 
-Your mission, should you choose to accept it, is to plot a linear trendline for a series of data points using Kendo's DataViz. 'Sounds boring' you say? Yeah, I thought so too at first but it turned out to be an entertaining exercise that I thought I'd share. Full disclaimer, this a quickly thrown-together example for fun so take that for what it is...
+Your mission, should you choose to accept it, is to plot a linear trendline for a series of data points using Kendo's DataViz. 'Sounds boring' you say? Yeah, I thought so too at first but it turned out to be an entertaining exercise that I thought I'd share. Full disclaimer, this is a quickly thrown-together example for fun so take that for what it is...
 
 # Data you say?
 
@@ -130,4 +130,4 @@ If you throw that code in an html page and open it up in your browser it should 
 
 OK, so that looks great and we've got a base to work with. Now, let's say we want to demonstrate the over-all trend of the number of box office tickets sold in the past decade using a linear trendline. Kendo, at the time of writing, does not have a built-in way of generate a trendline like, say, Excel does. So we'll have to do it manually.
 
-Fortunately, we've already demonstrated the Kendo chart can easily draw lines between the points in our series quite easily. So, all we have to do to draw a trendline is calculate the start and end point of the line and add it as a new series for the chart widget to draw for us. That's exactly what we'll do in the next post. 
+Fortunately, we've already demonstrated the Kendo chart can easily draw lines between the points in our series quite easily. So, all we have to do to draw a trendline is calculate the start and end point of the line and add it as a new series for the chart widget to draw for us. That's exactly what we'll do in the [next post](http://tylerramsey.net/2015/03/29/trendy-with-trendlines-part2.html). 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting trendy with trendlines in Kendo DataViz (Part Two)"
-description: "The exciting conclusion to plotting linear trendlines in Kendo DataViz Chat controls."
+description: "The exciting conclusion to plotting linear trendlines in Kendo DataViz Chart controls."
 author: Tyler Ramsey
 date: 2015-03-29 21:00
 twitter_card: summary
@@ -16,7 +16,7 @@ tags:
 [![example_chart2](http://tylerramsey.net/assets/201503/example_chart2.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/y2o9wx7j/1/)
 {: style="text-align: center"}
 
-In my [last post](http://tylerramsey.net/2015/03/25/trendy-with-trendlines.html) we left off with having plotted the past decade of box office ticket sales using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control. With our base data defined and plotted we're now going to plot a linear trendline on the chart like the one you see in the image above. Again, this a quickly thrown-together example for fun so take that for what it is... 
+In my [last post](http://tylerramsey.net/2015/03/25/trendy-with-trendlines.html) we left off with having plotted the past decade of box office ticket sales using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control. With our base data defined and plotted we're now going to plot a linear trendline on the chart like the one you see in the image above. Again, this is a quickly thrown-together example for fun so take that for what it is... 
 
 # Lines, points & coordinates oh my!
 
