@@ -26,6 +26,8 @@ $$ y = mx + b $$
 
 In case you don't recall it, in the above equation $$ y $$ is the y-coordinate of a point on the line, $$ m $$ is the slope of the line, $$ x $$ is the x-coordinate of a point on the line and $$ b $$ is y-intercept. As you may have noticed a linear trendline is a straight line (hence *linear*) so we can use this equation to plot it on our Kendo Chart.
 
+<!--excerpt-->
+
 In order to plot the trendline we need to calculate the start and end points of the line we want the chart widget to draw. Using the equation above we can break down the steps required for finding the start and end points as follows:
 
 1. Determine $$ x $$, in our case it will be 1 for start point and 11 for the end point since we're starting with the first year and ending with the eleventh.

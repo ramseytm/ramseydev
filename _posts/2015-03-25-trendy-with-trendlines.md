@@ -22,6 +22,8 @@ Your mission, should you choose to accept it, is to plot a linear trendline for 
 
 So to start out we're going to need some data to plot. Any data will do but I've been in a movie watching mood so I'm going to plot out the last decade of box office ticket sales and see how hollywood's been holding up. You can find the data required a few places, I picked [this one](http://pro.boxoffice.com/statistics/yearly "Yearly Box Office Sales"). I've no idea if it's accurate or not but [quickly-thrown together examples](http://blogs.msdn.com/b/oldnewthing/archive/2013/10/14/10456386.aspx "Little Programs") don't really care about accuracy.
 
+<!--excerpt-->
+
 So that data looks great. The next thing we need to do is put that data in a datasource that can be consumed by Kendo's DataViz chart control. To keep things simple I'm just going to use a JSON object we can use locally that looks like so:
 
 {% highlight javascript %}
