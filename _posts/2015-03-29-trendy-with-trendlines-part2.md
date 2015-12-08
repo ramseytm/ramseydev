@@ -18,7 +18,7 @@ tags:
 
 In my [last post](http://tylerramsey.net/2015/03/25/trendy-with-trendlines.html) we left off with having plotted the past decade of box office ticket sales using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control. With our base data defined and plotted we're now going to plot a linear trendline on the chart like the one you see in the image above. Again, this is a quickly thrown-together example for fun so take that for what it is... 
 
-# Lines, points & coordinates oh my!
+## Lines, points & coordinates oh my!
 
 So you may recall from your early education that a straight line can be defined in slope-intercept form by the following equation: 
 
@@ -38,7 +38,7 @@ In order to plot the trendline we need to calculate the start and end points of 
 
 So we already know the $$ x $$ values we want to get the corresponding $$ y $$ values for so let's move on to calculating the slope.
 
-# Calculating the slope: $$ m $$
+## Calculating the slope: $$ m $$
 
 So first off let's write a function that gets us the slope of a data set. The equation for calculating a the slope of a linear trendline over a set of data is the following:
 
@@ -94,7 +94,7 @@ var slope = getSlope(ticketsSold);
 
 <br />
 
-# Calculating the y-intercept: $$ b $$
+## Calculating the y-intercept: $$ b $$
 
 Now that we can calculate the slope for our data we need to calculate the y-intercept. The equation for calculating the y-intercept of our trendline is as follows:
 
@@ -148,7 +148,7 @@ var yIntercept = getYIntercept(ticketsSold);
 
 <br />
 
-# Solving for $$ y $$
+## Solving for $$ y $$
 
 OK, we have our $$ x $$ values, we have our $$ m $$ values and we even have our $$ b $$ values! So let's go ahead and get our $$ y $$ values that will use with their corresponding x-coordinates to plot our trendline. Again our equation for $$ y $$ is:
 
@@ -164,7 +164,7 @@ function getYCoordinate(data, axisX) {
 
 This function takes our ordered data array as a parameter along with a x-axis/x-coordinate value and returns the corresponding y-axis/y-coordinate value using the functions we defined earlier and plugging those values into the equation.
 
-# Putting it all together!
+## Putting it all together!
 
 OK, we have everything we need. Now we just need to put it all together and retrieve the y-coordinates for year 1 and 11 and then add them as a series to the chart. The full example is as follows:
 
@@ -292,7 +292,7 @@ You can see I've added our new functions. In addition to that, right after decla
 
 That's all there is to it. Once you have your y-coordinates all you have to do is add them to your data source as a new series and the chart widget takes care of drawing the trendline. Neat!
 
-# Conclusion
+## Conclusion
 
 I enjoyed solving this problem for myself but I would have appreciated it if the Kendo Chart had the ability to do this for me. If you agree, Telerik has a [feedback thread](http://kendoui-feedback.telerik.com/forums/127393-telerik-kendo-ui-feedback/suggestions/4966833-add-trendline-to-a-line-chart) for exactly that. Go vote so I can be lazier the next time some requests this feature! 
 

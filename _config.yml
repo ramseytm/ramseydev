@@ -13,3 +13,4 @@ excerpt_separator: <!--excerpt-->
 
 # Build settings
 markdown: kramdown
+permalink: pretty

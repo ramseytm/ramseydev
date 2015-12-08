@@ -18,7 +18,7 @@ tags:
 
 Your mission, should you choose to accept it, is to plot a linear trendline for a series of data points using Kendo's DataViz. 'Sounds boring' you say? Yeah, I thought so too at first but it turned out to be an entertaining exercise that I thought I'd share. Full disclaimer, this is a quickly thrown-together example for fun so take that for what it is...
 
-# Data you say?
+## Data you say?
 
 So to start out we're going to need some data to plot. Any data will do but I've been in a movie watching mood so I'm going to plot out the last decade of box office ticket sales and see how hollywood's been holding up. You can find the data required a few places, I picked [this one](http://pro.boxoffice.com/statistics/yearly "Yearly Box Office Sales"). I've no idea if it's accurate or not but [quickly-thrown together examples](http://blogs.msdn.com/b/oldnewthing/archive/2013/10/14/10456386.aspx "Little Programs") don't really care about accuracy.
 
@@ -43,7 +43,7 @@ var ticketSalesPerYear = [
 
 Nothing too crazy here, I'm just declaring an array varable containing an object for each year and that years' number of tickets sold. We'll use this array to plot a line graph using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control.
 
-# Plotting it all together
+## Plotting it all together
 
 Next we're going to plot a line graph that will serve as our base data for our trendline. To plot the line graph we'll need to initialize a kendo chart with our data array. The full working example including the kendo scripts required to run it looks like so:
 
@@ -128,7 +128,7 @@ If you throw that code in an html page and open it up in your browser it should 
 [![example_chart1](http://tylerramsey.net/assets/201503/example_chart1.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/d79q8p33/)
 {: style="text-align: center"}
 
-# Getting to the point
+## Getting to the point
 
 OK, so that looks great and we've got a base to work with. Now, let's say we want to demonstrate the over-all trend of the number of box office tickets sold in the past decade using a linear trendline. Kendo, at the time of writing, does not have a built-in way of generate a trendline like, say, Excel does. So we'll have to do it manually.
 

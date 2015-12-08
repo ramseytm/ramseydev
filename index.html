@@ -1,5 +1,6 @@
 ---
 layout: default
+include_math: true
 ---
 
 <div class="home">
@@ -12,7 +13,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y | %H:%M %p " }}</span>
 
         <div class="post-wrapper">
-          <h2>
+          <h1>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           {{ post.excerpt }}
