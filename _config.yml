@@ -3,13 +3,13 @@ title: Tyler Ramsey's - Tales of Development.
 headertitle: Tyler Ramsey
 subtitle: -- Tales of Development --
 email: ramz_tyler@yahoo.com
-description: > # tylerramsey.net is the personal blog of Tyler Ramsey, a software developer in Columbus, Ohio.
+description: Tales of Development is the personal blog of Tyler Ramsey, a software developer in Columbus, Ohio. Discussing tech, games and books.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://tylerramsey.net # the base hostname & protocol for your site
 twitter_username: ramsey_tm
 github_username:  ramseytm
 
-excerpt_separator: <!--excerpt--> 
+excerpt_separator: <!--excerpt-->
 
 # Build settings
 markdown: kramdown
