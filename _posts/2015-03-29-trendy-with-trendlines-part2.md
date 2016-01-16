@@ -16,17 +16,18 @@ tags:
 [![example_chart2](http://tylerramsey.net/assets/201503/example_chart2.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/y2o9wx7j/1/)
 {: style="text-align: center"}
 
-In my [last post](http://tylerramsey.net/2015/03/25/trendy-with-trendlines.html) we left off with having plotted the past decade of box office ticket sales using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control. With our base data defined and plotted we're now going to plot a linear trendline on the chart like the one you see in the image above. Again, this is a quickly thrown-together example for fun so take that for what it is... 
+In my [last post](http://tylerramsey.net/2015/03/25/trendy-with-trendlines.html) we left off with having plotted the past decade of box office ticket sales using the [Kendo Chart](http://demos.telerik.com/kendo-ui/line-charts/index) control. With our base data defined and plotted we're now going to plot a linear trendline on the chart like the one you see in the image above. Again, this is a quickly thrown-together example for fun so take that for what it is...
 
 ## Lines, points & coordinates oh my!
 
-So you may recall from your early education that a straight line can be defined in slope-intercept form by the following equation: 
+So you may recall from your early education that a straight line can be defined in slope-intercept form by the following equation:
 
 $$ y = mx + b $$
 
 In case you don't recall it, in the above equation $$ y $$ is the y-coordinate of a point on the line, $$ m $$ is the slope of the line, $$ x $$ is the x-coordinate of a point on the line and $$ b $$ is y-intercept. As you may have noticed a linear trendline is a straight line (hence *linear*) so we can use this equation to plot it on our Kendo Chart.
 
 <!--excerpt-->
+<a name="start" />
 
 In order to plot the trendline we need to calculate the start and end points of the line we want the chart widget to draw. Using the equation above we can break down the steps required for finding the start and end points as follows:
 
@@ -64,7 +65,7 @@ function getSlope(data) {
 }
 {% endhighlight %}
 
-What this function does is take an ordered array of numbers as the data parameter, loops through each element in the array to calculate the sumProductXY, sumProductX, sumX and sumY and then plugs those values into the equation for calculating the slope and returns the results. 
+What this function does is take an ordered array of numbers as the data parameter, loops through each element in the array to calculate the sumProductXY, sumProductX, sumX and sumY and then plugs those values into the equation for calculating the slope and returns the results.
 
 This is simplified a bit in that I'm making assumptions about our x-axis, which is a series of years, so I'm just summing our index in each loop iteration. This works well enough for our use case.
 
@@ -120,7 +121,7 @@ function getYIntercept(data) {
 }
 {% endhighlight %}
 
-This function is pretty straight forward. Like we did when calculating the slope we loop through each element of our data array to calculate the sumX and the sumY. We then get the slope for the data using our getSlope() method and then plug that information into the equation and return the result. 
+This function is pretty straight forward. Like we did when calculating the slope we loop through each element of our data array to calculate the sumX and the sumY. We then get the slope for the data using our getSlope() method and then plug that information into the equation and return the result.
 
 We can call this function the same we did for our getSlope() function like so:
 
@@ -232,7 +233,7 @@ OK, we have everything we need. Now we just need to put it all together and retr
                 valueAxis: {
                   min: 1200000000,
                   labels: {
-                    format: "n0" 
+                    format: "n0"
                   }
                 },
                 categoryAxis: {
@@ -294,11 +295,4 @@ That's all there is to it. Once you have your y-coordinates all you have to do i
 
 ## Conclusion
 
-I enjoyed solving this problem for myself but I would have appreciated it if the Kendo Chart had the ability to do this for me. If you agree, Telerik has a [feedback thread](http://kendoui-feedback.telerik.com/forums/127393-telerik-kendo-ui-feedback/suggestions/4966833-add-trendline-to-a-line-chart) for exactly that. Go vote so I can be lazier the next time some requests this feature! 
-
-
-
-
-
-
-
+I enjoyed solving this problem for myself but I would have appreciated it if the Kendo Chart had the ability to do this for me. If you agree, Telerik has a [feedback thread](http://kendoui-feedback.telerik.com/forums/127393-telerik-kendo-ui-feedback/suggestions/4966833-add-trendline-to-a-line-chart) for exactly that. Go vote so I can be lazier the next time some requests this feature!

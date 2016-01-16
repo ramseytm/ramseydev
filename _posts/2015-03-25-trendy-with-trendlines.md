@@ -23,6 +23,7 @@ Your mission, should you choose to accept it, is to plot a linear trendline for 
 So to start out we're going to need some data to plot. Any data will do but I've been in a movie watching mood so I'm going to plot out the last decade of box office ticket sales and see how hollywood's been holding up. You can find the data required a few places, I picked [this one](http://pro.boxoffice.com/statistics/yearly "Yearly Box Office Sales"). I've no idea if it's accurate or not but [quickly-thrown together examples](http://blogs.msdn.com/b/oldnewthing/archive/2013/10/14/10456386.aspx "Little Programs") don't really care about accuracy.
 
 <!--excerpt-->
+<a name="start" />
 
 So that data looks great. The next thing we need to do is put that data in a datasource that can be consumed by Kendo's DataViz chart control. To keep things simple I'm just going to use a JSON object we can use locally that looks like so:
 
@@ -101,7 +102,7 @@ Next we're going to plot a line graph that will serve as our base data for our t
                 }],
                 valueAxis: {
                   labels: {
-                    format: "n0" 
+                    format: "n0"
                   }
                 },
                 categoryAxis: {
@@ -121,9 +122,9 @@ Next we're going to plot a line graph that will serve as our base data for our t
 
 {% endhighlight %}
 
-Again, this is fairly straight forward. We're adding the html required to get the example to run, creating our array and then generating a kendo chart on the div with the id "#chart" using our array as the data source's data parameter. I'm not going to get too in-depth with how the kendo chart works as you can find more detailed examples on their site. However, in general you pass it an array of objects, then define which field in the array will serve as the "series", define which field will serve as the "category axis" and then kendo does the rest. 
+Again, this is fairly straight forward. We're adding the html required to get the example to run, creating our array and then generating a kendo chart on the div with the id "#chart" using our array as the data source's data parameter. I'm not going to get too in-depth with how the kendo chart works as you can find more detailed examples on their site. However, in general you pass it an array of objects, then define which field in the array will serve as the "series", define which field will serve as the "category axis" and then kendo does the rest.
 
-If you throw that code in an html page and open it up in your browser it should render something like this: 
+If you throw that code in an html page and open it up in your browser it should render something like this:
 
 [![example_chart1](http://tylerramsey.net/assets/201503/example_chart1.png "Click for js fiddle")](https://jsfiddle.net/ramseytm/d79q8p33/)
 {: style="text-align: center"}
@@ -132,4 +133,4 @@ If you throw that code in an html page and open it up in your browser it should 
 
 OK, so that looks great and we've got a base to work with. Now, let's say we want to demonstrate the over-all trend of the number of box office tickets sold in the past decade using a linear trendline. Kendo, at the time of writing, does not have a built-in way of generate a trendline like, say, Excel does. So we'll have to do it manually.
 
-Fortunately, we've already demonstrated the Kendo chart can easily draw lines between the points in our series quite easily. So, all we have to do to draw a trendline is calculate the start and end point of the line and add it as a new series for the chart widget to draw for us. That's exactly what we'll do in the [next post](http://tylerramsey.net/2015/03/29/trendy-with-trendlines-part2.html). 
+Fortunately, we've already demonstrated the Kendo chart can easily draw lines between the points in our series quite easily. So, all we have to do to draw a trendline is calculate the start and end point of the line and add it as a new series for the chart widget to draw for us. That's exactly what we'll do in the [next post](http://tylerramsey.net/2015/03/29/trendy-with-trendlines-part2.html).

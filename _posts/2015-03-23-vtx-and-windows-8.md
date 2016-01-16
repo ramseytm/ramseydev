@@ -20,9 +20,10 @@ So tonight I ran into a bit of frustration with Windows 8. Like most IT folks, I
 
 >VT-x is not available. (VERR_VMX_NO_VMX)
 
-<!--excerpt--> 
+<!--excerpt-->
+<a name="start" />
 
-Well that's interesting, it *was* available last time I checked, er, five months ago (double yikes!). For those that don't know VT-x refers to [Intel's hardware virtualization technology](http://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29 "VT-x"). It's required for taking full advantage of 64-bit hosts, such as my desktop PC, and running 64-bit guest VMs, such as the one I'm writing this post on. VT-x is usually presented as a setting in your bios screen that can be enabled or disabled. 
+Well that's interesting, it *was* available last time I checked, er, five months ago (double yikes!). For those that don't know VT-x refers to [Intel's hardware virtualization technology](http://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29 "VT-x"). It's required for taking full advantage of 64-bit hosts, such as my desktop PC, and running 64-bit guest VMs, such as the one I'm writing this post on. VT-x is usually presented as a setting in your bios screen that can be enabled or disabled.
 
 Since this VM used to work I found it unlikely that VT-x was magically disabled without my knowing but I decided to be deligent, for once!, and check my bios settings before skipping on to other steps. After about 10 minutes of perusing my bios screen I finally found the setting, under overclocking settings of all things (thanks MSI!), and lo and behold it's **enabled**.
 
@@ -37,8 +38,3 @@ If it's checked it's installed and likely running, and of course it was checked 
 <br />
 <br />
 <sup>1: I also had to reset my VM instance to be set to the 64-bit version of the OS as apparently VirtualBox automatically sets it to 32-bit when it's unable to detect VT-x ¯\\\_(ツ)\_/¯.</sup>
-
-
-
-
-
