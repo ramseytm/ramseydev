@@ -166,13 +166,13 @@
 }
 
 .post-tags-list {
-    margin-left: 3px;
+    margin-left: 5px;
     padding: 0;
     float: left;
     display: block;
 
     & > li {
-        padding-left: 3px;
+        padding: 0 0 0 3px;
         display: inline-block;
         *display:inline;
     }
