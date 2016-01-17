@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yearly rollup of interesting things."
+title: "Yearly rollup of interesting things"
 description: "A year end clearance of links to things I found interesting over the past year."
 author: Tyler Ramsey
 date: 2016-01-16 13:00
@@ -35,9 +35,9 @@ Rosetta Code is a really neat site that I can't believe I hadn't heard of until 
 
 ## The Humble Programmer
 
-[http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html, "The humble programmer")
+[http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html "The humble programmer")
 
-Dijkstra's 1972 Turing lecture stressing the importance approaching the complex tasks presented to programmers each day with a great deal of respect and humility. I was of course familiar with it before this year, however I had never actually read it. If you haven't read it, you really should.
+Dijkstra's 1972 Turing lecture stressing the importance of approaching the complex tasks presented to programmers each day with a great deal of respect and humility. I was of course familiar with it before this year, however I had never actually read it. If you haven't read it, you really should.
 
 ## Full-Stack Redux Tutorial
 
