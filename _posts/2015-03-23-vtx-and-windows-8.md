@@ -12,10 +12,6 @@ tags:
 - virtual box
 ---
 
-<iframe src="//giphy.com/embed/MH7QJh2JSWV4Q" width="480" height="320" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
- <br/>
-
 So tonight I ran into a bit of frustration with Windows 8. Like most IT folks, I have a few VMs on my local machine that I run with [VirtualBox](https://www.virtualbox.org/ "Virtual Box") and as you may have noticed, the VM I use when editing this site has gone unused since, er, last November apparently (yikes!). Tonight I figured I should probably take a look and run an update or two when to my suprise I'm greeted to this wonderful error upon start up:
 
 >VT-x is not available. (VERR_VMX_NO_VMX)

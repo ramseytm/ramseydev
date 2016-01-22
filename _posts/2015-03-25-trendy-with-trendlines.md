@@ -12,10 +12,6 @@ tags:
 - javascript
 ---
 
-<iframe src="//giphy.com/embed/JiL1EN1E5yriU" width="480" height="224" frameBorder="0" style="max-width: 100%" class="header-image giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-<br />
-
 Your mission, should you choose to accept it, is to plot a linear trendline for a series of data points using Kendo's DataViz. 'Sounds boring' you say? Yeah, I thought so too at first but it turned out to be an entertaining exercise that I thought I'd share. Full disclaimer, this is a quickly thrown-together example for fun so take that for what it is...
 
 ## Data you say?

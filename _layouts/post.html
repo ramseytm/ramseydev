@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-meta">  
+    <div class="post-meta">
         <image src="{{site.url}}/assets/calender.png" alt="calender.png" class="icon-image"/> {{ page.date | date: "%b %-d, %Y" }}
     </div>
     <ul class="post-tags-list"> <image src="{{site.url}}/assets/tag.png" alt="tag.png" class="icon-image"/>  {% for tags in page.tags %}
@@ -19,17 +19,3 @@ layout: default
 
   <div class="disclaimer">*All thoughts and opinions presented on this site are my own and do not reflect the thoughts or opinions of my employer or anyone else.</div>
 </div>
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'tylerramseynet';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
