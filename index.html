@@ -13,15 +13,17 @@ description: Tales of Development is the personal blog of Tyler Ramsey, a softwa
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y | %H:%M %p " }}</span>
 
-        <div class="post-wrapper">
+        <article class="post-wrapper">
           <h1>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          {{ post.excerpt }}
+          <section>
+            {{ post.excerpt }}
+          </section>
           <div class="excerpt-link">
           <a href="{{ post.url | prepend: site.baseurl }}#start">Continue reading...</a>
           </div>
-        </div>
+        </article>
       </li>
     {% endfor %}
     <div class="disclaimer">*All thoughts and opinions presented on this site are my own and do not reflect the thoughts or opinions of my employer or anyone else.</div>
