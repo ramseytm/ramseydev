@@ -8,7 +8,7 @@ My personal blog that I use to rant and talk about stuff that interests me.
 ---------------------------------------------------------------------------
 
 The MIT License (MIT)  
-Copyright (c) 2015 Tyler Ramsey  
+Copyright (c) 2016 Tyler Ramsey  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
