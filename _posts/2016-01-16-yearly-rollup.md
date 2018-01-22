@@ -5,14 +5,14 @@ description: "A year end clearance of links to things I found interesting over t
 author: Tyler Ramsey
 date: 2016-01-16 13:00
 twitter_card: summary
-header_image: http://tylerramsey.net/assets/201601/fireworks.jpg
+header_image: https://tylerramsey.net/assets/201601/fireworks.jpg
 include_math: false
 tags:
 - links
 - random
 ---
 
-![fireworks](http://tylerramsey.net/assets/201601/fireworks.jpg "fireworks")
+![fireworks](https://tylerramsey.net/assets/201601/fireworks.jpg "fireworks")
 {: style="text-align: center"}
 
 I'm a little late with this one as we're now halfway through January but each year I like to look back on some of the interesting things I've read or seen. I'm constantly reading blogs and articles throughout my day, some related to work and some that just catch my eye. When I read one that holds my attention for longer than 10 minutes I usually bookmark it so I can come back to it later or maybe give it a second glance. I've gone through those bookmarks below with a short summary of each in case anyone else finds them interesting. So without further ado, the list!
